@@ -3,10 +3,10 @@ import Homepage from "./Pages/Homepage";
 import Navbar from "./Components/Navbar";
 const App = () => {
   return (
-    <div className="overflow-x-hidden scroll-smooth">
+    <div className="overflow-x-hidden scroll-smooth font-poppins">
       <Router>
         <Routes>
-          <Navbar />
+          {/* <Navbar /> */}
           <Route path="/" element={<Homepage />} />
         </Routes>
       </Router>
