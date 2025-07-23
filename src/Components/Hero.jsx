@@ -13,6 +13,7 @@ const Hero = () => {
       <div className="grid grid-cols-1 gap-6 px-32 lg:grid-cols-2 2xl:px-auto">
         {/* leftside */}
         <div className="flex items-center justify-center gap-10">
+            {/* social Icons */}
           <div className="flex gap-5 lg:flex-col">
             <FaFacebookF className="text-furnituregrey" />
             <FaTwitter className="text-furnituregrey" />

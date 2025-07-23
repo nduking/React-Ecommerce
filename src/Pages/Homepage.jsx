@@ -6,7 +6,7 @@ import Preview from '../Components/Preview'
 const Homepage = () => {
   return (
     <main>
-        <Navbar/>
+        {/* <Navbar/> */}
         <Hero/>
         <Preview/>
     </main>

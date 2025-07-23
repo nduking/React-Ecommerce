@@ -18,7 +18,7 @@ const Navbar = () => {
             className="px-4 py-1 rounded-full focus:bg-furnituregreen"
           />
         </div>
-        <span className="flex font-bold text-furnituregrey hover:text-furnituregreen">
+        <span className="flex text-3xl font-semibold text-furnituregrey hover:text-furnituregreen">
           <img
             src="/Vector.svg"
             alt="simplewood"
