@@ -9,11 +9,11 @@ import {
 
 const Hero = () => {
   return (
-    <section className="relative bg-[url(/furniturebg.svg)] h-min py-20 object-cover bg-no-repeat">
-      <div className="grid grid-cols-2 gap-6 px-32 2xl:px-auto">
+    <section className="relative bg-[url(/furniturebg.svg)] h-max py-20 object-cover bg-no-repeat">
+      <div className="grid grid-cols-1 gap-6 px-32 lg:grid-cols-2 2xl:px-auto">
         {/* leftside */}
         <div className="flex items-center justify-center gap-10">
-          <div className="flex flex-col gap-5">
+          <div className="flex gap-5 lg:flex-col">
             <FaFacebookF className="text-furnituregrey" />
             <FaTwitter className="text-furnituregrey" />
             <FaYoutube className="text-furnituregrey" />
@@ -34,7 +34,7 @@ const Hero = () => {
         </div>
         {/* rightside */}
         <div className="flex gap-3 mt-14">
-          <div className="flex flex-col space-y-3">
+          <div className="flex space-y-3 lg:flex-col">
             <img src="/image 42.svg" alt="" />
             <img src="/image 43.svg" alt="" />
           </div>
