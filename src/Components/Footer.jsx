@@ -9,8 +9,8 @@ import {
 
 const Footer = () => {
   return (
-    <section className="px-32 bg-black ">
-      <div className="flex items-center justify-between py-10">
+    <section className="bg-black lg:px-32 ">
+      <div className="items-center justify-center py-10 lg:justify-between lg:flex">
         <span className="text-furnituregrey">
           Policy Term & Conditions Help
         </span>

@@ -6,8 +6,8 @@ import { ImArrowUp } from "react-icons/im";
 
 const Chairs = () => {
   return (
-    <section className="flex px-28">
-      <div className="grid grid-cols-3 py-6">
+    <section className="flex px-16 lg:px-28 md:px-20 xs:px-12">
+      <div className="grid grid-cols-1 py-6 lg:grid-cols-3">
         {/* left */}
         <div className="w-[278px] space-y-4">
           <h3 className="text-lg font-semibold">Shopping Options</h3>
@@ -77,10 +77,10 @@ const Chairs = () => {
           </div>
          </div>
          {/* display */}
-         <div className="grid grid-cols-3 py-5 gap-x-4">
+         <div className="grid grid-cols-1 gap-4 py-5 lg:grid-cols-3 md:grid-cols-2">
             {/* left-side */}
-            <div className="">
-                <div className="h-[450px] w-[288px] space-y-1">
+            <div className="py-3">
+                <div className="2xl:h-[450px] 2xl:w-[288px] space-y-1">
                     <img src="/Greychair.png" alt="" />
                     <span className="text-base font-semibold text-[#212121] flex">Cupboards</span>
                     <div><span className="line-through text-[#A2A2A2] text-[15px]">$45.00</span> <span className="text-[#212121] font-semibold text-[15px]">$44.00</span></div>
@@ -94,7 +94,7 @@ const Chairs = () => {
                         <span className="underline text-[#828282] ml-2">3 reviews</span>
                     </div>
                 </div>
-                <div className="h-[450px] w-[288px] space-y-1">
+                <div className="2xl:h-[450px] 2xl:w-[288px] space-y-1">
                     <img src="/Goldchair.png" alt="" />
                     <span className="text-base font-semibold text-[#212121] flex">Cupboards</span>
                     <div><span className="line-through text-[#A2A2A2] text-[15px]">$45.00</span> <span className="text-[#212121] font-semibold text-[15px]">$44.00</span></div>
@@ -108,7 +108,7 @@ const Chairs = () => {
                         <span className="underline text-[#828282] ml-2">3 reviews</span>
                     </div>
                 </div>
-                <div className="h-[450px] w-[288px] space-y-1">
+                <div className="2xl:h-[450px] 2xl:w-[288px] space-y-1">
                     <img src="/Greychair.png" alt="" />
                     <span className="text-base font-semibold text-[#212121] flex">Cupboards</span>
                     <div><span className="line-through text-[#A2A2A2] text-[15px]">$45.00</span> <span className="text-[#212121] font-semibold text-[15px]">$44.00</span></div>
@@ -125,8 +125,8 @@ const Chairs = () => {
                 
             </div>
             {/* middle-side */}
-            <div className="">
-                <div className="h-[450px] w-[288px] space-y-1">
+            <div className="py-3">
+                <div className="2xl:h-[450px] 2xl:w-[288px] space-y-1">
                     <img src="/Goldchair.png" alt="" />
                     <span className="text-base font-semibold text-[#212121] flex">Cupboards</span>
                     <div><span className="line-through text-[#A2A2A2] text-[15px]">$45.00</span> <span className="text-[#212121] font-semibold text-[15px]">$44.00</span></div>
@@ -140,7 +140,7 @@ const Chairs = () => {
                         <span className="underline text-[#828282] ml-2">3 reviews</span>
                     </div>
                 </div>
-                <div className="h-[450px] w-[288px] space-y-1">
+                <div className="2xl:h-[450px] 2xl:w-[288px] space-y-1">
                     <img src="/Brownchair.png" alt="" />
                     <span className="text-base font-semibold text-[#212121] flex">Cupboards</span>
                     <div><span className="line-through text-[#A2A2A2] text-[15px]">$45.00</span> <span className="text-[#212121] font-semibold text-[15px]">$44.00</span></div>
@@ -154,7 +154,7 @@ const Chairs = () => {
                         <span className="underline text-[#828282] ml-2">3 reviews</span>
                     </div>
                 </div>
-                <div className="h-[450px] w-[288px] space-y-1">
+                <div className="2xl:h-[450px] 2xl:w-[288px] space-y-1">
                     <img src="/Goldchair.png" alt="" />
                     <span className="text-base font-semibold text-[#212121] flex">Cupboards</span>
                     <div><span className="line-through text-[#A2A2A2] text-[15px]">$45.00</span> <span className="text-[#212121] font-semibold text-[15px]">$44.00</span></div>
@@ -170,8 +170,8 @@ const Chairs = () => {
                 </div>
             </div>
             {/* right-side */}
-            <div className="">
-                <div className="h-[450px] w-[288px] space-y-1">
+            <div className="py-3">
+                <div className="2xl:h-[450px] 2xl:w-[288px] space-y-1">
                     <img src="/Brownchair.png" alt="" />
                     <span className="text-base font-semibold text-[#212121] flex">Cupboards</span>
                     <div><span className="line-through text-[#A2A2A2] text-[15px]">$45.00</span> <span className="text-[#212121] font-semibold text-[15px]">$44.00</span></div>
@@ -185,7 +185,7 @@ const Chairs = () => {
                         <span className="underline text-[#828282] ml-2">3 reviews</span>
                     </div>
                 </div>
-                <div className="h-[450px] w-[288px] space-y-1">
+                <div className="2xl:h-[450px] 2xl:w-[288px] space-y-1">
                     <img src="/Greychair.png" alt="" />
                     <span className="text-base font-semibold text-[#212121] flex">Cupboards</span>
                     <div><span className="line-through text-[#A2A2A2] text-[15px]">$45.00</span> <span className="text-[#212121] font-semibold text-[15px]">$44.00</span></div>
@@ -199,7 +199,7 @@ const Chairs = () => {
                         <span className="underline text-[#828282] ml-2">3 reviews</span>
                     </div>
                 </div>
-                <div className="h-[450px] w-[288px] space-y-1">
+                <div className="2xl:h-[450px] 2xl:w-[288px] space-y-1">
                     <img src="/Greychair.png" alt="" />
                     <span className="text-base font-semibold text-[#212121] flex">Cupboards</span>
                     <div><span className="line-through text-[#A2A2A2] text-[15px]">$45.00</span> <span className="text-[#212121] font-semibold text-[15px]">$44.00</span></div>
