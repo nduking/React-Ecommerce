@@ -9,7 +9,7 @@ import {
 
 const Footer = () => {
   return (
-    <section className="bg-black lg:px-32 ">
+    <section className="bg-black lg:px-32 mt-10">
       <div className="items-center justify-center py-10 lg:justify-between lg:flex">
         <span className="text-furnituregrey">
           Policy Term & Conditions Help

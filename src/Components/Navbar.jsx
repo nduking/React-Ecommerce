@@ -43,7 +43,7 @@ const Navbar = () => {
           <IoMdMenu />
         </div>
       </div>
-      <div className="hidden lg:py-6">
+      <div className=" lg:py-6">
         <ul className="flex items-center justify-center gap-6">
           <Link
             to="/"
