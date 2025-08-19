@@ -7,13 +7,14 @@ import {
   FaArrowRight,
 } from "react-icons/fa";
 
+
 const Hero = () => {
   return (
     <section className="relative bg-[url(/furniturebg.svg)] h-max py-20 object-cover bg-no-repeat">
       <div className="grid grid-cols-1 gap-6 px-32 lg:grid-cols-2 2xl:px-auto">
         {/* leftside */}
         <div className="flex items-center justify-center gap-10">
-            {/* social Icons */}
+          {/* social Icons */}
           <div className="flex gap-5 lg:flex-col">
             <FaFacebookF className="text-furnituregrey" />
             <FaTwitter className="text-furnituregrey" />
@@ -42,13 +43,14 @@ const Hero = () => {
           <img src="/image 40.svg" alt="" />
         </div>
         {/* paganation */}
-        <div className="flex justify-center gap-2">
+        {/* <div className="flex justify-center gap-2">
           <div className="rounded-full bg-furnituregreen h-[10px] w-[10px]"></div>
           <div className="rounded-full bg-furnituregrey/80 h-[10px] w-[10px]"></div>
           <div className="rounded-full bg-furnituregrey/80 h-[10px] w-[10px]"></div>
           <div className="rounded-full bg-furnituregrey/80 h-[10px] w-[10px]"></div>
-        </div>
+        </div> */}
       </div>
+      
     </section>
   );
 };
