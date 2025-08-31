@@ -3,7 +3,8 @@ import Homepage from "./Pages/Homepage";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Catelogpage from "./Pages/Catelogpage";
-import Productpage from "./Pages/Productpage";
+import Reviewpage from "./Pages/Reviewpage";
+import Productpage from "./Pages/productpage";
 const App = () => {
   return (
     <div className="overflow-x-hidden scroll-smooth font-poppins">
@@ -13,6 +14,7 @@ const App = () => {
           <Route path="/" element={<Homepage />} />
           <Route path="/catelogs" element={<Catelogpage />} />
           <Route path="/product-page" element={<Productpage />} />
+          <Route path="/review-page" element={<Reviewpage />} />
         </Routes>
         <Footer />
       </Router>

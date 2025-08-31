@@ -1,9 +1,8 @@
 import React from "react";
-import { FaChevronDown, FaStar, FaPlus } from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
 import Productslider from "../Components/Mini-component/Productslider";
 import DetailsSection from "../Components/Mini-component/DetailsSection";
-
-const productpage = () => {
+const Reviewpage = () => {
   return (
     <section className="mt-32 px-28">
       <div>
@@ -47,7 +46,7 @@ const productpage = () => {
       </div>
       {/* details */}
       <div className="max-w-4xl mt-16">
-        <DetailsSection title="Details" defaultOpen={true}>
+        <DetailsSection title="Details">
           <p className="text-gray-600 ">
             The sofa quickly and easily turns into a spacious bed.
           </p>
@@ -95,11 +94,99 @@ const productpage = () => {
             intended for daily use as a bed.
           </p>
         </DetailsSection>
-        <DetailsSection title="Reviews">
-          <p className="mt-3 text-gray-600 ">
-            It is recommended to use as a sleeping place for guests, not
-            intended for daily use as a bed.
-          </p>
+        <DetailsSection title="Reviews" defaultOpen={true}>
+          <div className="py-5 border-b border-grey-200">
+            <h3 className="text-[23px] font-light text-[#828282]">
+              Customer Reviews
+            </h3>
+            <p className="mt-4 font-medium text-[#212121] text-lg">
+              As an ocean lifeguard, I've used several types of lower grade
+              binos in the past and eventually just gave up on using binos all
+              together because they would always have issues.
+            </p>
+            <div className="flex flex-row justify-between mt-4">
+              <div>
+                <div className="flex items-center">
+                  <span className="text-[#828282] mr-3">Ratings</span>
+                  <FaStar className="text-[#FF9900]" />
+                  <FaStar className="text-[#FF9900]" />
+                  <FaStar className="text-[#FF9900]" />
+                  <FaStar className="text-[#C4C4C4]" />
+                  <FaStar className="text-[#C4C4C4]" />
+                </div>
+              </div>
+              <div className="flex flex-col space-y-3">
+                <p className="text-sm text-[#212121]">
+                  Rides up a bit during workouts but otherwise it's pretty
+                  comfy! I like the hood.
+                </p>
+                <p className="text-sm text-[#828282]">Review by Gala 3/25/19</p>
+              </div>
+            </div>
+          </div>
+          <div className="py-5 border-b border-grey-200">
+            <h3 className="text-lg font-light text-[#212121]">
+              Rides up during workouts
+            </h3>
+            <p className="mt-4 font-medium text-[#212121] text-lg">
+              As an ocean lifeguard, I've used several types of lower grade
+              binos in the past and eventually just gave up on using binos all
+              together because they would always have issues.
+            </p>
+            <div className="flex flex-row justify-between mt-4">
+              <div>
+                <div className="flex items-center">
+                  <span className="text-[#828282] mr-3">Ratings</span>
+                  <FaStar className="text-[#FF9900]" />
+                  <FaStar className="text-[#FF9900]" />
+                  <FaStar className="text-[#FF9900]" />
+                  <FaStar className="text-[#C4C4C4]" />
+                  <FaStar className="text-[#C4C4C4]" />
+                </div>
+              </div>
+              <div className="flex flex-col space-y-3">
+                <p className="text-sm text-[#212121]">
+                  Rides up a bit during workouts but otherwise it's pretty
+                  comfy! I like the hood.
+                </p>
+                <p className="text-sm text-[#828282]">Review by Gala 3/25/19</p>
+              </div>
+            </div>
+          </div>
+          <div className="py-5 border-b border-grey-200">
+            <h3 className="text-lg font-light text-[#212121]">
+              Rides up during workouts
+            </h3>
+            <p className="mt-4 font-medium text-[#212121] text-lg">
+              As an ocean lifeguard, I've used several types of lower grade
+              binos in the past and eventually just gave up on using binos all
+              together because they would always have issues.
+            </p>
+            <div className="flex flex-row justify-between mt-4">
+              <div>
+                <div className="flex items-center">
+                  <span className="text-[#828282] mr-3">Ratings</span>
+                  <FaStar className="text-[#FF9900]" />
+                  <FaStar className="text-[#FF9900]" />
+                  <FaStar className="text-[#FF9900]" />
+                  <FaStar className="text-[#C4C4C4]" />
+                  <FaStar className="text-[#C4C4C4]" />
+                </div>
+              </div>
+              <div className="flex flex-col space-y-3">
+                <p className="text-sm text-[#212121]">
+                  Rides up a bit during workouts but otherwise it's pretty
+                  comfy! I like the hood.
+                </p>
+                <p className="text-sm text-[#828282]">Review by Gala 3/25/19</p>
+              </div>
+            </div>
+          </div>
+          {/* form */}
+          <div>
+            <p>You're reviewing:</p>
+            <span>Mona Pullover Hoodlie</span>
+          </div>
         </DetailsSection>
       </div>
 
@@ -204,4 +291,4 @@ const productpage = () => {
   );
 };
 
-export default productpage;
+export default Reviewpage;
