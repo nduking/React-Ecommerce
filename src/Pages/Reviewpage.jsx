@@ -88,7 +88,7 @@ const Reviewpage = () => {
             intended for daily use as a bed.
           </p>
         </DetailsSection>
-        <DetailsSection title="Product Availability">
+        <DetailsSection title="Product Availability" >
           <p className="mt-3 text-gray-600 ">
             It is recommended to use as a sleeping place for guests, not
             intended for daily use as a bed.
@@ -125,14 +125,10 @@ const Reviewpage = () => {
             </div>
           </div>
           <div className="py-5 border-b border-grey-200">
-            <h3 className="text-lg font-light text-[#212121]">
+            <h3 className="text-lg font-medium text-[#212121]">
               Rides up during workouts
             </h3>
-            <p className="mt-4 font-medium text-[#212121] text-lg">
-              As an ocean lifeguard, I've used several types of lower grade
-              binos in the past and eventually just gave up on using binos all
-              together because they would always have issues.
-            </p>
+
             <div className="flex flex-row justify-between mt-4">
               <div>
                 <div className="flex items-center">
@@ -154,14 +150,10 @@ const Reviewpage = () => {
             </div>
           </div>
           <div className="py-5 border-b border-grey-200">
-            <h3 className="text-lg font-light text-[#212121]">
+            <h3 className="text-lg font-medium text-[#212121]">
               Rides up during workouts
             </h3>
-            <p className="mt-4 font-medium text-[#212121] text-lg">
-              As an ocean lifeguard, I've used several types of lower grade
-              binos in the past and eventually just gave up on using binos all
-              together because they would always have issues.
-            </p>
+
             <div className="flex flex-row justify-between mt-4">
               <div>
                 <div className="flex items-center">
@@ -184,8 +176,53 @@ const Reviewpage = () => {
           </div>
           {/* form */}
           <div>
-            <p>You're reviewing:</p>
-            <span>Mona Pullover Hoodlie</span>
+            <div className="py-5">
+              <p className="text-base text-[#828282]">You're reviewing:</p>
+              <span className="text-lg font-medium">Mona Pullover Hoodlie</span>
+            </div>
+            {/* Ratings */}
+            <div className="mb-4 space-y-3">
+              <div className="flex flex-col space-y-2">
+                <span className="text-[#828282] mr-3">Your Ratings *</span>
+                <span className="text-[#828282] mr-3">Ratings</span>
+              </div>
+              {/* Star */}
+              <div className="flex items-center text-xl">
+                <FaStar className="text-[#c2c0c07c]" />
+                <FaStar className="text-[#c2c0c07c]" />
+                <FaStar className="text-[#c2c0c07c]" />
+                <FaStar className="text-[#c2c0c07c] " />
+                <FaStar className="text-[#c2c0c07c]" />
+              </div>
+            </div>
+            {/* form input */}
+            <form action="" className="space-y-5">
+              <div className="flex flex-col">
+                <label htmlFor="">Nickname *</label>
+                <input
+                  type="text"
+                  placeholder="Veronica"
+                  className="border-2 w-[493px] px-3 py-1"
+                />
+              </div>
+              <div className="flex flex-col">
+                <label htmlFor="">Symmary *</label>
+                <input
+                  type="text"
+                  placeholder=""
+                  className="border-2 w-[493px] px-3 py-1"
+                />
+              </div>
+              <div className="flex flex-col">
+                <label htmlFor="">Review *</label>
+                <input
+                  type="text"
+                  placeholder=""
+                  className="border-2 w-[493px] px-3 py-8"
+                />
+              </div>
+              <button className="bg-[#7DB800] text-white text-sm font-bold px-3 py-2">Submit Review</button>
+            </form>
           </div>
         </DetailsSection>
       </div>
