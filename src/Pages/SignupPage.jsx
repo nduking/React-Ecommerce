@@ -1,10 +1,14 @@
 import React from "react";
 import Herosign from "../Components/Herosign";
+import HeroCategory from "../Components/Mini-component/HeroCategory";
 
 const SignupPage = () => {
   return (
     <section>
-      <Herosign />
+      <HeroCategory
+        children={["Home", "Inner page Example"]}
+        heading="Create New Customer Account"
+      />
       <div className="flex justify-center pt-16 pb-16">
         <div className="flex flex-col space-y-4 w-[640px]">
           <span className="text-lg font-semibold ">Personal Information</span>
